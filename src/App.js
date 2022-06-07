@@ -25,7 +25,7 @@ function App() {
           pais='Suecia'
           imagen='emma'
           cargo='Ingeniera de Software'
-          empresa='Spotyfy'
+          empresa='Spotify'
           testimonio='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan gravida accumsan. In pretium mauris a pellentesque pulvinar. Vestibulum vel risus magna. Phasellus nec ipsum id massa hendrerit tristique. Etiam egestas arcu et est faucibus dictum. Aliquam nunc nisl, cursus auctor tellus id, dapibus venenatis turpis. Sed non metus vitae tortor efficitur scelerisque in rutrum quam. Quisque volutpat nec nunc ac tincidunt.' />
       </div>
     </div>
