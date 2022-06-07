@@ -1,5 +1,5 @@
 .contenedor-testimonio {
-  width: 1170px;
+  max-width: 1170px;
   height: 368px;
   margin: 10px 10px 50px;
   display: flex;
@@ -35,4 +35,83 @@
 .texto-testimonio {
   font-size: 1.1rem;
   text-align: justify;
+}
+
+
+@media (max-width: 930px) {
+  .contenedor-testimonio {
+    max-width: 900px;
+    height: 468px;
+  }
+
+  .imagen-testimonio {
+    height: 80%;
+    width: auto;
+    margin: 1rem;
+  }
+
+  .nombre-testimonio {
+    font-size: 1.1rem;
+  }
+
+  .cargo-testimonio {
+    font-size: 1.1rem;
+  }
+
+  .texto-testimonio {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .contenedor-testimonio {
+    max-width: 900px;
+    height: 568px;
+  }
+
+  .imagen-testimonio {
+    height: 70%;
+    width: auto;
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 810px) {
+  .contenedor-testimonio {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    
+  }
+}
+
+@media (max-width: 320px) {
+  .contenedor-testimonio {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    
+  }
+
+  .imagen-testimonio {
+    height: 50%;
+    width: 50%;
+    margin: 1rem;
+  }
+
+  .contenedor-texto-testimonio {
+    padding: 20px;
+  }
+  
+  .nombre-testimonio {
+    font-size: 1rem;
+  }
+
+  .cargo-testimonio {
+    font-size: 1rem;
+  }
+
+  .texto-testimonio {
+    font-size: 0.8rem;
+  }
 }
